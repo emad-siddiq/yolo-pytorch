@@ -1,0 +1,20 @@
+name: yolo-pytorch
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pytorch
+  - torchvision
+  - cudatoolkit=11.8
+  - numpy
+  - opencv
+  - pillow
+  - matplotlib
+  - pytest
+  - pip
+  - pip:
+    - tqdm
+    - pycocotools
+    - albumentations
