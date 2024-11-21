@@ -2,12 +2,13 @@ name: yolo-pytorch
 channels:
   - pytorch
   - conda-forge
+  - nvidia
   - defaults
 dependencies:
   - python=3.9
   - pytorch
   - torchvision
-  - cudatoolkit=11.8
+  #- cudatoolkit=11.8
   - numpy
   - opencv
   - pillow
